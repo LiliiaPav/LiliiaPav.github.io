@@ -1,3 +1,18 @@
-h1 {
-  color: maroon;
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
 }
