@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lili Board Games</title>
-    <!--Bootstrap    -->
+    <title>Knitting</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,77 +11,77 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html" title="Home">Home</a>
-        &nbsp;
-        <a href="aboutme.html" title="About me">About me</a>
-      </nav>
-    </header>
-    <h1>Board games</h1>
-    <section>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Knitting</a>
+        <!--collapsed navbar-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Hats.html">Hats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Sweaters.html">Sweaters</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--breadcrumb-->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+
+    <!--breadcrumb-->
+
+    <article>
+      <h2>Find time to find yourself</h2>
+
+      <img class="albom_cover" src="img/white_hat.jpg" alt="white hat" />
+      <a href="multicolor_hat.html">
+        <img
+          class="albom_cover"
+          src="img/multicolor_hat.jpg"
+          alt="multicolor hat"
+      /></a>
       <img
-        src="https://live.staticflickr.com/65535/50464179681_9aa0716eff_k.jpg"
-        width="512"
-        alt="Ruric game board"
+        class="albom_cover"
+        src="img/orange_cardigan.jpg"
+        alt="orange cardigan"
       />
-
-      <p>Let's make something <strong>amazing</strong> together!</p>
-
-      <h3><em>Collection of games</em></h3>
-      <ul>
-        <li>Gloomhaven</li>
-        <li>Ticket to Ride</li>
-        <li>Lords of Waterdeep</li>
-        <li>Rurik: Dawn of Kiev</li>
-        <li>Scythe</li>
-        <li>Tokaido</li>
-        <li>Civilization: A New Dawn</li>
-        <li>Dead of Winter: A Crossroads Game</li>
-        <li>Terraforming Mars</li>
-        <li>Agricola: Family Edition</li>
-        <li>Raiders of the North Sea</li>
-        <li>Viticulture Essential Edition</li>
-        <li>Stone Age</li>
-        <li>Eldritch Horror</li>
-        <li>The Godfather: Corleone's Empire</li>
-        <li>Fallout</li>
-        <li>Risk</li>
-        <li>Clue</li>
-        <li>Small World</li>
-        <li>Photosynthesis</li>
-        <li>7 Wonders</li>
-        <li>7 Wonders Duel</li>
-        <li>Concept</li>
-        <li>Catan</li>
-        <li>Splendor</li>
-        <li>Carcassonne</li>
-        <li>The Castles of Burgundy</li>
-        <li>Pandemic</li>
-        <li>Tsuro</li>
-        <li>Munchkin</li>
-        <li>King of Tokyo</li>
-        <li>Azul</li>
-        <li>Dixit</li>
-        <li>Ticket to Ride</li>
-        <li>Ticket to Ride: New York</li>
-        <li>Trekking the National Parks</li>
-        <li>Charterstone</li>
-        <li>Targi</li>
-        <li>...</li>
-        <li>...</li>
-        <li>Forbidden Island</li>
-        <li>Catan Junior</li>
-        <li>Labyrinth</li>
-        <li>Labyrinth</li>
-        <li>Sleeping Queens</li>
-        <li>My Little Scythe</li>
-      </ul>
-    </section>
-    <aside></aside>
-
-    <footer>My Copyright 2020</footer>
+      <img
+        class="albom_cover"
+        src="img/orange_sweater.jpg"
+        alt="orange sweater"
+      />
+      <img
+        class="albom_cover"
+        src="img/purple_sweater.jpg"
+        alt="purple sweater"
+      />
+      <img class="albom_cover" src="img/blue_sweater.jpg" alt="blue sweater" />
+    </article>
   </body>
 </html>
